@@ -1,5 +1,7 @@
 # Words for bad things
 
+https://benlk.github.io/ranked-situational-fury/
+
 This project aims to:
 
 1. Create a ranked list of non-ableist words of situational fury
