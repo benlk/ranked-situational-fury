@@ -170,7 +170,7 @@ article { position: relative;
 section { padding-top: 1rem;
           padding-bottom: 1rem; }
 
-p, ol, ul { font-size: 1.4rem; }
+p, ol, ul, dl { font-size: 1.4rem; }
 
 p { line-height: 2rem;
     margin-top: 1.4rem;
@@ -200,7 +200,7 @@ blockquote footer { width: 50%;
                     font-size: 1.1rem;
                     text-align: right; }
 
-ol, ul { width: 45%;
+ol, ul, dl { width: 45%;
          -webkit-padding-start: 5%;
          -webkit-padding-end: 5%; }
          
@@ -208,6 +208,9 @@ ul { list-style-type: none; }
 
 li { padding: 0.5rem 0; }
 
+dd {
+  margin-bottom: 1.4rem;
+}
 figure { padding: 0;
          border: 0;
          font-size: 100%;
@@ -293,7 +296,6 @@ img { max-width: 100%; }
 p,
 footer,
 table,
-dl,
 div.table-wrapper-small,
 div.supertable-wrapper > p,
 div.booktabs-wrapper { width: 55%; }
@@ -305,11 +307,10 @@ div.table-wrapper { overflow-x: scroll;
 
 @media screen and (max-width: 760px) {
   p,
-  dl,
   footer { width: 90%; }
 
   pre.code { width: 87.5%; }
-  ul { width: 85%; }
+  ol, ul, dl { width: 85%; }
   figure { max-width: 90%; }
   figcaption, figure.fullwidth figcaption { margin-right: 0%; max-width: none; }
   blockquote p, blockquote footer { width: 90%; }
