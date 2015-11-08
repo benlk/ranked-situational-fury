@@ -206,7 +206,10 @@ ol, ul, dl { width: 45%;
          
 ul { list-style-type: none; }
 
-li { padding: 0.5rem 0; }
+li {
+  padding: 0.5rem 0;
+  clear: left;
+}
 
 dd {
   margin-bottom: 1.4rem;
