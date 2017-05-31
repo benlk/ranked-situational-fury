@@ -1,0 +1,24 @@
+.bg-white {
+  background-color: white;
+}
+.rounded-corners {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  
+  box-shadow: 0 0 200px 100px rgba(0,0,0,0.05);
+}
+
+body {
+  background-color: hsla(60, 100%, 97%, 1);
+}
+
+#shortcut {
+  position: fixed;
+  top: 0.0em;
+  left: calc( -112.391px + 1.5em );
+  transform: rotate( -90deg );
+  transform-origin: bottom right;
+  /* background-color: hsla(60, 100%, 97%, 1); /*/
+}
