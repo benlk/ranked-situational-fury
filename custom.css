@@ -1,5 +1,6 @@
 .bg-white {
-  background-color: white;
+  /* because otherwise this looks too blue*/
+  background-color: hsla( 60, 100%, 99%, 1);
 }
 .rounded-corners {
   border-top-left-radius: 10px;
