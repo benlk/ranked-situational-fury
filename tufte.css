@@ -312,7 +312,10 @@ div.table-wrapper { overflow-x: scroll;
   footer { width: 90%; }
 
   pre.code { width: 87.5%; }
-  ol, ul, dl { width: 85%; }
+  ol, ul, dl { width: 90%;
+               box-sizing: border-box;
+               padding-right: 0em;
+              }
   figure { max-width: 90%; }
   figcaption, figure.fullwidth figcaption { margin-right: 0%; max-width: none; }
   blockquote p, blockquote footer { width: 90%; }
